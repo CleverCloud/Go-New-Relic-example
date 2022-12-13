@@ -1,6 +1,6 @@
 # Install New Relic for Go 
 
-This repository is a Go example containing the New Relic Agent, to monitor [a Go example app](https://github.com/CleverCloud/Go-example) running on [Clever Cloud](https://www.clever-cloud.com).
+This repository showcases how to make a [Go app](https://github.com/CleverCloud/Go-example) that runs on [Clever Cloud](https://www.clever-cloud.com) observable using [New Relic](https://newrelic.com) Agent.
 
 ## How to
 
