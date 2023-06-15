@@ -22,7 +22,7 @@ Follow the steps to import the agent into your Go application.
 
 ### Step 4: a note
 
-The code in `main.go` contains the code in a new `init` block. You can also add it your `main fucntion. Both options are viable.
+The code in `main.go` contains the code in a new `init` block. You can also add it your `main` function. Both options are viable.
 
 Don't forget to run `go run .` to compile and deploy before pushing your code.
 
