@@ -37,3 +37,7 @@ The code in `main.go` contains the code in a new `init` block. You can also add 
 Don't forget to run `go run .` to compile and deploy before pushing your code.
 
 🚀  **You don't need to complete step 7 when deploying on Clever Cloud**, as the runtime will read your code and get the agent automatically.
+
+## Go versions
+
+If your project uses a Go version that is not yet supported on Clever Cloud, specify the full version (ex: `go 1.22.0` instead of `go 1.22`)in `go.mod` like in this example. It will work out of the box with the specified version regardless of server configurations.
