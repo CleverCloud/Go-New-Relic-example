@@ -4,11 +4,21 @@ This repository showcases how to make a [Go app](https://github.com/CleverCloud/
 
 ## How to
 
+### Build on Clever Cloud
+
+This project uses `gomod` to build. Add the following environment variable in Clever Cloud Console to deploy this app:
+
+```shell
+CC_GO_BUILD_TOOL="gomod"
+```
+
+### Connect to New Relic
+
 The installation process is explained in [New Relic's doc for Go](https://docs.newrelic.com/docs/apm/agents/go-agent/installation/install-new-relic-go/) or can be done by following the step by step instructions provided by the Guided Install from your New Relic account.
 
 Both processes are the same, except the Guided install will already contain your Licence Key in the code, which is convenient.
 
-## Guided Install from New Relic dashborad
+#### Guided Install from New Relic dashborad
 
 From your New Relic home's account, go to the left menu options, click on **Add data >Guided Install**. 
 
