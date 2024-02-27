@@ -1,6 +1,6 @@
 module hello-go/m
 
-go 1.22
+go 1.22.0
 
 require github.com/newrelic/go-agent/v3 v3.20.1
 
